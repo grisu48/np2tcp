@@ -24,3 +24,13 @@ np2tcp \\.\pipe\10001 :10001                 # Listen on all interfaces
 The server allows only one tcp connection at a time, however it allows a client to reconnect, in case the connection is lost.
 
 If the named pipe is closed, the server terminates.
+
+## Building
+
+Building at the moment needs to happen manually:
+
+```
+go build -o telnet.exe cmd/telnet/telnet.go
+go build -o echo.exe cmd/echo/echo.go
+go build -o np2tcp cmd/np2tcp/main.go
+```
