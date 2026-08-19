@@ -1,8 +1,8 @@
 # np2tcp
 
-Bidirectional NamedPipe to TCP adapter.
+**This project has been replaced by the [WindowsPipeProxy](https://github.com/grisu48/WindowsPipeProxy) and is now archived.**
 
-**THIS IS WIP**, everything here is still fresh out of the oven!
+Bidirectional NamedPipe to TCP adapter.
 
 Currently the project consists of three different binaries for Windows only:
 
